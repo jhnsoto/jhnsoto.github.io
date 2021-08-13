@@ -21,14 +21,6 @@ display: inline-block;
   right: 0;
   background: rgba(255, 255, 255, 0.5);
   color: #fff;
-  visibility: hidden;
-  opacity: 0;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-.hovereffect:hover .overlay {
   visibility: visible;
   opacity: 1;
 }
